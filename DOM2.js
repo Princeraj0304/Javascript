@@ -6,7 +6,7 @@ let head1=document.getElementById('head')
 head1.style.color="purple"
 head1.style.fontFamily="sans-serif"
 head1.style.textDecoration="underline"
-head1.innerHTML="<i>Hello Suckers</i>"
+head1.innerHTML="<i>Hello World</i>"
 
 
 let head2=document.getElementById("head2")
@@ -16,5 +16,6 @@ head2.textContent="Get out of my head"
 
 
 
-document.getElementById('para').innerHTML="This is not Paragraph"
+let paragraph=document.getElementById('para').innerHTML="This is not Paragraph"
+
 
