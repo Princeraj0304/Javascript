@@ -16,6 +16,10 @@ h5[0].style.color="red"
 h5[1].style.color="gray"
 h5[2].style.color="tomato"
 
+let a=document.querySelectorAll('#h1')
+a[0].style.color="red"
+a[1].style.color="green"
+ 
 
 // In getElementsByClassname indexing is required for even a single element
 
