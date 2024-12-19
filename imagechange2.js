@@ -7,7 +7,10 @@ function img2(){
 }
 
 function img3(){
-    document.getElementById('imangi').src="monitor3.jpeg"
+    let d=document.getElementById('imangi')  
+    d.src='monitor3.jpeg'
+    d.classList.add('imgi')
+
 }
 
 function img4(){

@@ -13,12 +13,19 @@ bd1.append(b)
 // setAttribute allow us to pass attribute to the element
 // setAttribute allow us to pass only one attribute, if we add more than one it will overwrite
 
-a.setAttribute('style','background-color: red')
-a.setAttribute('style','color:blue')
-a.removeAttribute('style','color')
+// a.setAttribute('style','background-color: red')
+// a.setAttribute('style','color:blue')
+// a.removeAttribute('style','color')
 
 
-b.setAttribute('align','center')
+// b.setAttribute('align','center')
 
-bd.setAttribute('bgcolor','yellow')
-bd.removeAttribute('bgcolor')
+// bd.setAttribute('bgcolor','yellow')
+// bd.removeAttribute('bgcolor')
+
+let img=document.createElement('img')
+img.setAttribute('src','star-alliance-new.jpeg')
+bd.append(img)
+
+// let photo=document.getElementById('imangi')
+// photo.setAttribute('src','AIEstore-1.jpeg')
