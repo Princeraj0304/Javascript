@@ -8,11 +8,10 @@ if(a==""){
     document.getElementById('#name').focus()
     return false
 }
-else if(b==""){
+ if(b==""){
       alert("Please enter your contact number")
       document.getElementById('contact').focus()
       return false
-
 }
 
 }
