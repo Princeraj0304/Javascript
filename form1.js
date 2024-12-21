@@ -11,7 +11,6 @@ let d=a+b
 
 let c=document.getElementById('head')
 c.innerHTML=(d)
-
 return false
 
 // return false is used to stop form submission
