@@ -1,5 +1,3 @@
-let d=0
-
 function add(){
 
 let a=parseInt(document.getElementById('num1').value) 
