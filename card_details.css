@@ -1,0 +1,78 @@
+.container{
+    width: 25%;
+    border: 2px solid  rgb(208, 202, 202);
+    height: 500px;
+    position: relative;
+    top: 100px;
+    left: 550px;
+    border-radius: 10px;
+}
+
+.container h1{
+    font-family: "Nunito", serif;
+    padding-left: 15px;
+    color: #62b4fe;
+}
+
+.images{
+    display: flex;
+   justify-content: space-between;
+}
+
+.form{
+    padding-left: 15px;
+    font-family: "Nunito", serif;
+    color: #66554a;
+}
+
+.form2{
+    display: flex;
+    gap: 100px;
+    font-family: "Nunito", serif;
+    
+}
+
+.input2 input{
+    width: 25%;
+   
+}
+
+.input2{
+    display: flex;
+    gap: 100px;
+}
+
+.butt{
+    margin-top: 20px;
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Nunito", serif;
+    font-size: 18px;
+    background-color: #7cc7f9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.form #cardnum , .form #cardname{
+    width: 92%;
+    height: 30px;
+    border: 3px solid;
+    border-color: rgb(215, 208, 208);
+    border-radius: 5px;
+}
+
+#exp,#code{
+    width:30%;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: rgb(215, 208, 208);
+}
+
+input::placeholder{
+    color: rgb(190, 184, 184);
+    font-size: 17px;
+}

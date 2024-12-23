@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card_details.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Doto:wght@100..900&family=Lacquer&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sevillana&family=Sixtyfour+Convergence&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Yuji+Mai&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="head">Invoice</h1>
+        <div class="images">
+            <img src="visa-logo-png-transparent.png" width="65px" alt="" id="img1" height="40px">
+            <img src="mastercard-icon-512x396-e90vsnhk.png" width="50px" height="40px" alt="" id="img2">
+            <img src="jcb-card-icon.webp" alt="" width="50px" id="img3" height="40px">
+            <img src="American_Express-Logo.wine.png" width="90px" alt="" height="40px">
+        </div>
+         
+         <div class="form">
+         <form action="Card_detail_redirect.html">
+            <h3>Card Number</h3>
+         <input type="text" id="cardnum" placeholder="1234 5678 9012 3456">
+            <h3>Name on the Card</h3>
+        <input type="text" name="" id="cardname" placeholder="Ex. Prince Raj">
+        <div class="form2">
+            <h3>Expiry Date</h3>
+            <h3>Security Code</h3>
+        </div>
+        <div class="input2">
+            <input type="text" id="exp" placeholder="01/24">
+            <input type="text" id="code" placeholder="Code">
+         </div>
+         <button class="butt" onclick="return sub()">Next</button>
+        </form>
+    </div>
+    </div>
+    
+    <script src="card_details.js"></script>
+</body>
+</html>
