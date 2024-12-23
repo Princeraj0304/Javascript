@@ -15,13 +15,4 @@ return false
 
 }
 
-// function sub(){let a=parseInt(document.getElementById('num1').value) 
-//     let b=parseInt(document.getElementById('num2').value)
-    
-//     // .value will take the value entered in the input box.
-    
-//     alert(a-b)
-    
-//     }
-
 
