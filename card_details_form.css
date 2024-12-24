@@ -16,7 +16,7 @@
 
 .images{
     display: flex;
-    justify-content: space-between;
+   justify-content: space-between;
 }
 
 .form{
@@ -75,44 +75,4 @@
 input::placeholder{
     color: rgb(190, 184, 184);
     font-size: 17px;
-}
-
-.span{
-    display: flex;
-}
-
-.para{
-   position: relative;
-   top: 28px;
-   right: 115px;
-   font-size: small;
-   color: red;
-   font-family: "Nunito", serif;
-}
-
-.para2{
-    position: relative;
-    top: 28px;
-    right: 157px;
-    font-size: small;
-    color: red;
-    font-family: "Nunito", serif;
-}
-
-.para3{
-    position: relative;
-    bottom: 135px;
-    left: 15px;
-    font-size: small;
-    color: red;
-    font-family: "Nunito", serif;
-}
-
-.para4{
-    position: absolute;
-    bottom: 100px;
-    left: 220px;
-    font-size: small;
-    color: red;
-    font-family: "Nunito", serif;
 }

@@ -1,3 +1,4 @@
+
 function sub(){
     let cardnum=document.querySelector('#cardnum').value 
     let cardname=document.querySelector('#cardname').value
@@ -6,57 +7,57 @@ function sub(){
 
 
     if(cardnum==''){
-        document.querySelector('.para').innerHTML='Please enter your card details'
+        alert('Please Enter card number')
         document.getElementById('cardnum').focus()
         return false
     }
 
     else if(isNaN(cardnum)){
-        document.querySelector('.para').innerHTML='Please enter numbers only'
+        alert("Sorry Numbers only")
         document.getElementById('cardnum').focus()
         return false
     }
 
     else if(cardnum.length>16||cardnum.length<16){
-        document.querySelector('.para').innerHTML='card number should contain 16 digits'
+        alert("Card number Should be of 16 digits")
         document.getElementById('cardnum').focus()
         return false
     }
 
     else if(cardname==''){
-        document.querySelector('.para2').innerHTML='Please enter name on your card'
+        alert('Please Enter card name')
         document.getElementById('cardname').focus()
         return false
     }
 
     else if(exp==''){
-         document.querySelector('.para3').innerHTML='Please enter expiray date on card'
+        alert("Please Enter expiry date of your card")
         document.querySelector('#exp').focus()
         return false
     }
     
     else if(!(exp.includes('/'))){
-         document.querySelector('.para3').innerHTML='enter date same as on the card'
+        alert("Please Enter in as on the card")
         document.getElementById('exp').focus()
         return false
     }
 
     else if(code==''){
-         document.querySelector('.para4').innerHTML='Please enter the CVV'
+        alert("Please enter your security code")
         document.getElementById('code').focus()
         return false
     }
 
     else if(isNaN(code)){
-        document.querySelector('.para4').innerHTML='sorry numbers only'
+        alert("sorry numbers only")
         document.querySelector('#code').focus()
         return false
     }
 
     else if(code.length>3 || code.length<3){
-       document.querySelector('.para4').innerHTML='CVV should be of 3 digits'
-       document.querySelector('#code').focus()
-       return false
+        alert("Please Enter the three Digit code")
+        document.querySelector('#code').focus()
+        return false
     }
 
 
