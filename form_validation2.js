@@ -3,6 +3,8 @@ function sub(){
     let contact=document.getElementById('contact').value
     let age=document.getElementById('age').value
     let email=document.getElementById('email').value
+    let password=document.getElementById('password').value
+    let cpassword=document.getElementById('cpassword').value
 
     if(name==''){
         alert("Name cannot be empty")
@@ -52,4 +54,30 @@ function sub(){
         document.getElementById('email').focus()
         return false
     }
+
+    else if(password==''){
+        alert("Enter your password")
+        document.getElementById('password').focus()
+        return false
+    }
+
+    else if(!(password.match(/[~!@#$%^&*<>]/))){
+        alert("please enter atleast one special character")
+        document.getElementById('password').focus()
+        return false
+    }
+
+    else if(cpassword==''){
+        alert("Enter your password again")
+        document.getElementById('cpassword').focus()
+        return false
+    }
+
+    else if(password!=cpassword){
+        alert("Password mis matched")
+        document.getElementById('cpassword').focus()
+        return false
+    }
+
+
 }
