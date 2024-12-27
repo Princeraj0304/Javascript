@@ -1,5 +1,15 @@
-function click(){
+function change(){
+
     let a=document.getElementById('head')
-    a.innerHTML='cybrom'
+
+    if(a.innerHTML=="cybrom"){
+        a.innerHTML=" "
+        document.getElementById('butt').innerHTML="show"
+    }
+
+    else{
+        a.innerHTML="cybrom"
+        document.getElementById('butt').innerHTML="Hide"
+    }
 }
 
