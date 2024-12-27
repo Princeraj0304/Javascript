@@ -1,5 +1,5 @@
-let button=document.getElementById('butt')
-button.addEventListener('click',function(){alert("Button Clicked")})
+// let button=document.getElementById('butt')
+// button.addEventListener('mouseenter',()=> {alert("Button Clicked")})
 
 
 // addEventListener accept two vlaues first one is event and second one is Function 
@@ -7,10 +7,10 @@ button.addEventListener('click',function(){alert("Button Clicked")})
 
 
 
-// function fun(){
-//     alert("Button clicked")
-// }
+function fun(){
+   return alert("Button clicked")
+}
 
 
-// let button=document.getElementById('butt')
-// button.addEventListener('click',fun())
+let button=document.getElementById('butt')
+button.addEventListener('click',fun())
