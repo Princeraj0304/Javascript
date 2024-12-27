@@ -7,4 +7,5 @@ function add(){
 
 function remove(){
     let b=document.querySelector('.head').innerHTML=" "
+  
 }
