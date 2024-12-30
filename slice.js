@@ -7,4 +7,3 @@ ar.splice(1,4,"prince")
 console.log(ar);
 
 // splice operator takes the first indexing and removes Element upto the specified number, It is also used to add elements in the array.
- 
