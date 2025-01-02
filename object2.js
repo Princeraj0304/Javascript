@@ -10,6 +10,5 @@ function sub(){
     console.log(ob)
     
     return false
-
    
 }
