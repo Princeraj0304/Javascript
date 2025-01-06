@@ -10,3 +10,8 @@ obj.color="Red"
 obj.Name = "Prince Raj"
 
 console.log(obj);
+
+
+for(k in obj){
+    console.log(obj[k])
+}

@@ -12,7 +12,7 @@
 // console.log(obj3)
 
 let obj2={
-    name : "Prince",
+    name : "Prince Raj",
     age : 20,
     address : "JMP",
     stack : "FSD"
