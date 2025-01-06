@@ -13,4 +13,5 @@ function img3(){
 function img4(){
     let a=document.getElementById('imgi')
     a.setAttribute('src','promo_ipadair_ai__3fv1eitzqv6y_large.jpg')
+    
 }
