@@ -19,9 +19,8 @@ let student=[{
 ]
 
 let finaldata =student.map((e)=>
-
 ` <tr>
-   <td>${e.Roll}</td>
+  <td>${e.Roll}</td>
   <td>${e.Name}</td>
   <td>${e.Age}</td>
   <td>${e.city}</td>
