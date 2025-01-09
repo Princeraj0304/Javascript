@@ -18,8 +18,12 @@ let student=[
     }
 ]
 
-let st=student.map((e)=>{return e.name})
-console.log(st)
+for(k of student){
+    console.log(k)
+}
 
-let st_filter =student.filter((e)=>{return e.age>20})
-console.log(st_filter)
+// let st=student.map((e)=>{return e.name})
+// console.log(st)
+
+// let st_filter =student.filter((e)=>{return e.age>20})
+// console.log(st_filter)

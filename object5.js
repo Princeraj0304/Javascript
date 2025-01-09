@@ -1,9 +1,8 @@
 let obj1={
     name : "prince",
-    demo : function(){
-        alert("Inside Object")
-    } ,
-
+    demo : () =>{
+        alert("Welcome baby")
+    },
     games : ["Valorant","COD","Fortnite"]
 }
 

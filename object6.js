@@ -21,8 +21,10 @@ let obj2={
 
 
 let value=Object.values(obj2)
+
 console.log(value);
-// console.log(value[1])
+console.log(value[1])
+
 for(k of value){
     console.log(k)
 }
@@ -38,5 +40,9 @@ console.log(key[1])
 
 delete obj2.age
 console.log(obj2)
+
+for(k of key){
+    console.log(k)
+}
 
 
