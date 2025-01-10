@@ -13,4 +13,4 @@ function fun(){
 
 
 let button=document.getElementById('butt')
-button.addEventListener('click',fun())
+button.addEventListener('click',fun)
