@@ -23,5 +23,5 @@ switch(c){
         break;
     
     default:
-        alert("Invalid operator")
+        alert("Invalid operator entered")
 }
