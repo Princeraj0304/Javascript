@@ -13,7 +13,7 @@ function sub(){
     }
 
     else if(isNaN(cardnum)){
-        alert("Sorry Numbers only")
+        alert("Sorry enter Numbers only")
         document.getElementById('cardnum').focus()
         return false
     }
