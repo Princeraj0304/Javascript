@@ -1,4 +1,4 @@
-let num=16.22
+let num=4.92
 
 let ans=Math.sqrt(num)
 console.log(ans);
