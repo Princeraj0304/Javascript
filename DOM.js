@@ -11,10 +11,3 @@ let list=document.getElementsByTagName('li')
 list[0].innerHTML="Service"
 list[2].innerHTML="Orders"
 list[1].innerHTML="<h1>Prices</h1>"
-
-
-
-
-
-
-
