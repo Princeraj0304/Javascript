@@ -6,4 +6,4 @@ console.log(ans);
 let ans2=Math.trunc(num)
 console.log(ans2);
 
-// trunc eats the value after the deecimal 
+// trunc eats the value after the decimal 

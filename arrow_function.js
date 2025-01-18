@@ -31,3 +31,6 @@ console.log((() => "Hello Bro")());
 let b=(a,b) => ( a*b)
 
 console.log(b(3,4))
+
+let d=()=>{return "prince"}
+console.log(d())
