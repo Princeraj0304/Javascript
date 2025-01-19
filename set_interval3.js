@@ -1,5 +1,3 @@
-
-
 let a
 
 function start(){

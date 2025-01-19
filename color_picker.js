@@ -4,7 +4,7 @@ let color=document.getElementById('color')
 //    
 // }
 
-let z=setInterval(
+
 function change(){
     let y= '#'
     for(let i=0;i<6;i++){
@@ -12,11 +12,10 @@ function change(){
     }
     document.body.style.backgroundColor=y
 }
-,100)
+let z=setInterval(change,100)
 
-setTimeout(z,5000)
+setTimeout(()=>clearInterval(z),5000)
 
-clearInterval()
 const random_gen=()=>{
      return Math.floor((Math.random() * x.length))
 }

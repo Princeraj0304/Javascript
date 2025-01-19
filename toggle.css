@@ -1,9 +1,23 @@
 .bg{
     background-color: black;
+    color: white;
+}
+
+.font{
+     color: white;
 }
 
 button{
     position: relative;
     top: 30px;
     left: 30px;
+}
+
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+
+#mode {
+    font-size: 25px;
+    cursor: pointer;
 }
