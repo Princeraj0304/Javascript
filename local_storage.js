@@ -22,5 +22,5 @@ localStorage.removeItem('S_name')
 
 localStorage.clear()
 
-document.write("<h1>"+ b +"</h1>")
+document.write("<h1>" + b + "</h1>")
 
