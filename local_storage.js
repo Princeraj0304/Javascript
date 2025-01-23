@@ -20,3 +20,5 @@ document.write("<h1>"+ b +"</h1>")
 localStorage.removeItem('color')
 localStorage.removeItem('S_name')
 
+localStorage.clear()
+
