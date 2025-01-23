@@ -15,10 +15,12 @@ localStorage.setItem('S_name','Raj')
 localStorage.setItem('color','Red')
 
 let b=localStorage.getItem('color')
-document.write("<h1>"+ b +"</h1>")
+
 
 localStorage.removeItem('color')
 localStorage.removeItem('S_name')
 
 localStorage.clear()
+
+document.write("<h1>"+ b +"</h1>")
 
