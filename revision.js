@@ -12,3 +12,5 @@
 // 6. Differernce between arrow function and traditional function.
 // 7. What is anonymous function.
 // 8. Differernce between null and undefined
+
+

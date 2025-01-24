@@ -24,3 +24,5 @@ localStorage.clear()
 
 document.write("<h1>" + b + "</h1>")
 
+
+// JSON.stringify converts anything into string.

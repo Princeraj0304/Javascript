@@ -1,8 +1,6 @@
 let x=[1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"]
 let color=document.getElementById('color')
-// const change=() =>{
-//    
-// }
+
 
 
 function change(){
@@ -12,9 +10,9 @@ function change(){
     }
     document.body.style.backgroundColor=y
 }
-let z=setInterval(change,100)
+// let z=setInterval(change,100)
 
-setTimeout(()=>clearInterval(z),5000)
+// setTimeout(()=>clearInterval(z),5000)
 
 const random_gen=()=>{
      return Math.floor((Math.random() * x.length))
