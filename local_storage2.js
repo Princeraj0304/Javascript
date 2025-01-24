@@ -6,7 +6,10 @@ let person_ob={
 
 localStorage.setItem("userdata",JSON.stringify(person_ob))
 
-let data=JSON.parse(localStorage.getItem('userdata'))
-console.log(data)
+let data=(localStorage.getItem('userdata'))
+let sdata=JSON.parse(data)
+console.log(sdata)
 
-console.log(data.name)
+console.log(sdata.name)
+
+localStorage.removeItem('userdata')

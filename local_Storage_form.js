@@ -1,7 +1,7 @@
 let sub = ()=>{
     let userdata ={
-        Name : document.getElementById('name').vlaue,
-        Age : document.getElementById('age').vlaue,
+        Name : document.getElementById('name').value,
+        Age : document.getElementById('age').value,
         Password : document.getElementById('password').value
 
     }
