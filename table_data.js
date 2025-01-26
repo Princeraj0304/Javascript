@@ -11,9 +11,9 @@ let student=[{
 },
 
 {   Roll : 3,
-    Name : "Tanu",
-    Age : 22,
-    city : "Delhi"  
+    Name : "Rahil",
+    Age : 21,
+    city : "Jamalpur"  
 }
 
 ]
