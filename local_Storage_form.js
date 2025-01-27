@@ -7,4 +7,7 @@ let sub = ()=>{
     }
 
     localStorage.setItem("userdata", JSON.stringify(userdata))
+
+    let a=localStorage.getItem(JSON.parse('userdata'))
+    console.log(a.Name)
 }

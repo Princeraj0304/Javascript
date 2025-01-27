@@ -1,3 +1,4 @@
+function show(){
 let student=[{
     Roll : 1,
     Name : "Prince",
@@ -28,3 +29,5 @@ let finaldata =student.map((e)=>
  ).join("")
 
 document.getElementById('displaydata').innerHTML=finaldata
+
+}
