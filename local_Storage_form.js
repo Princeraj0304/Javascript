@@ -8,6 +8,20 @@ let sub = ()=>{
 
     localStorage.setItem("userdata", JSON.stringify(userdata))
 
-    let a=localStorage.getItem(JSON.parse('userdata'))
-    console.log(a.Name)
+    let a=localStorage.getItem('userdata')
+    let b=JSON.parse(a)
+    console.log(b);
+    
+    let c=Object.values(b)
+
+    let d=c.map((e)=>{return e})
+    console.log(d);
+
+    for(k of d){
+        console.log(k);
+        
+    }
+    
+    
+    return false
 }
