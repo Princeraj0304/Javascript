@@ -3,7 +3,7 @@
 // }
 
 let a=()=>{
-    alert("Hello world")
+    alert("Hello world ")
 }
 
 a()
