@@ -1,7 +1,7 @@
 let r=0
 
-let a=parseInt(prompt("Enter first number "))
-let b=parseInt(prompt("Enter second number "))
+let a=parseInt(prompt("Enter the first number "))
+let b=parseInt(prompt("Enter the second number "))
 
 function add(){
    let r=a+b
