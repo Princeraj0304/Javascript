@@ -1,4 +1,4 @@
-async function retrieve(){
+async function retrieve_data(){
     let data=await fetch('https://jsonplaceholder.typicode.com/comments')
     let finaldata=await data.json()
     let tdata=finaldata.map((e)=>`
@@ -13,4 +13,4 @@ async function retrieve(){
 
 }
 
-retrieve()
+retrieve_data()
