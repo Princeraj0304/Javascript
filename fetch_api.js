@@ -20,5 +20,3 @@ async function fetdata(){
 }
 
 fetdata()
-
-
