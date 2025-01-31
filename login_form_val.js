@@ -19,7 +19,7 @@ function loginauth(){
     }
     
     if(data.emial != logindata.email || data.password !=logindata.password){
-        alert('user not found')
+        alert('user not found ')
         return false
     }
 }
