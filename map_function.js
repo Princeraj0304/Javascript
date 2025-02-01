@@ -11,7 +11,7 @@ let arr=ar.map((e)=>{return e+1})
 console.log(ar)
 console.log(arr)
 
-// Filter function returns a new array based on a specific condition
+// Filter function returns a new array based on a specific condition.
 
 // let nrr=ar.filter((t)=>{return t%2==0})
 // console.log(nrr)
