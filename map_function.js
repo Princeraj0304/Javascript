@@ -1,6 +1,6 @@
 // Map function in js is used to fetch the elements of an array and return it in a new array.
 // Map function accepts a call back function.
-// Map function doesn't allow conditions
+// Map function doesn't allow conditions .
 
 
 
