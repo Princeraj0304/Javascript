@@ -4,7 +4,7 @@
 
 //http request
 
-// method ->  getComputedStyle,post,delete, post
+// method ->  get,post,delete, post
 
 // promise
 
