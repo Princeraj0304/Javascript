@@ -27,3 +27,18 @@ function mydelete(id){
 }
 
 
+function sub(){
+    let getdata={
+        name : document.getElementById('name').value,
+        age : document.getElementById('age').value,
+        city : document.getElementById('city').value,
+        contact : document.getElementById('contact').value
+    }
+
+    fetch('http://localhost:3000/student',{method : "POST",
+                                           headers:{
+                                               'Content-type': 'application/json'
+                                           }, 
+                                           body: JSON.stringify(getdata)}
+         ).then(r=>alert("Data inserted successfully "))
+}
