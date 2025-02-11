@@ -1,18 +1,11 @@
 {
   "student": [
     {
-      "name": "Prince",
-      "age": 20,
-      "city": "Bhopal",
-      "contact": 1343,
-      "id": "051d"
-    },
-    {
-      "id": "8db5",
-      "name": "prince",
+      "id": "051d",
+      "name": "Prince Raj",
       "age": "20",
-      "city": "bhopal",
-      "contact": "343"
+      "city": "Bhopal",
+      "contact": "1343"
     }
   ]
 }
