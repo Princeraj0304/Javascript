@@ -15,3 +15,7 @@
 
 // confirm("Hello world")
 
+let a=Object.create(a)
+
+
+console.log(a);
