@@ -8,6 +8,10 @@
 //     alert("Helllo");
 // }
 
-let press=() => {
-    alert("Hello World ")
-}
+// let press=() => {
+//     alert("Hello World ")
+// }
+
+
+// confirm("Hello world")
+
