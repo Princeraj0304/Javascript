@@ -10,7 +10,7 @@ let b=res.map((e)=>`
 <td>${e.city}</td> 
 <td>${e.contact}</td> 
 <td><button onclick="mydelete('${e.id}')">Delete</button></td>
-<td><button onclick="myedit('${e.id}')">Edit</button><td>
+<td><button onclick="myedit('${e.id}')">Edit</button></td>
 </tr>
 `).join('')
 
