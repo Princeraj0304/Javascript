@@ -6,7 +6,7 @@
 // console.log(b(c))
 
 
-// let a=() => {return 'Hello world'}
+// let a=() => {return 'Hello world !!'}
 
 // console.log(a())
 
