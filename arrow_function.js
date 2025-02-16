@@ -20,7 +20,7 @@
 
 // a()
 
-let a= () => "hello world"
+let a= () => "hello world 😉" 
 
 console.log(a())
 
