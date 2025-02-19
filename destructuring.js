@@ -4,7 +4,7 @@ console.log(name);
 
 
 let ar=["prince",20,"Bhopal"]
-ar.unshift("code","hello")
+ar.unshift("code","hello world") 
 console.log(ar)
 
 ar.shift()
